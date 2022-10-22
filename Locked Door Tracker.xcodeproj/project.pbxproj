@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9810E8D0281F1D1600CEE1FA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810E8CF281F1D1600CEE1FA /* DetailView.swift */; };
+		9810E8D2281F200200CEE1FA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810E8D1281F200200CEE1FA /* Post.swift */; };
+		9810E8D6281F24F500CEE1FA /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810E8D5281F24F500CEE1FA /* PostViewModel.swift */; };
+		9810E8DB281F35C500CEE1FA /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810E8DA281F35C500CEE1FA /* PostView.swift */; };
 		98EEC890281A126300C0616C /* Locked_Door_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEC88F281A126300C0616C /* Locked_Door_TrackerApp.swift */; };
 		98EEC892281A126300C0616C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEC891281A126300C0616C /* ContentView.swift */; };
 		98EEC894281A126700C0616C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EEC893281A126700C0616C /* Assets.xcassets */; };
@@ -14,6 +18,13 @@
 		98EEC8A1281A126700C0616C /* Locked_Door_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEC8A0281A126700C0616C /* Locked_Door_TrackerTests.swift */; };
 		98EEC8AB281A126700C0616C /* Locked_Door_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEC8AA281A126700C0616C /* Locked_Door_TrackerUITests.swift */; };
 		98EEC8AD281A126700C0616C /* Locked_Door_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEC8AC281A126700C0616C /* Locked_Door_TrackerUITestsLaunchTests.swift */; };
+		98EEC8BA281A612E00C0616C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98EEC8B9281A612E00C0616C /* GoogleService-Info.plist */; };
+		98EEC8BD281A61FB00C0616C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8BC281A61FB00C0616C /* FirebaseAnalytics */; };
+		98EEC8BF281A61FB00C0616C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8BE281A61FB00C0616C /* FirebaseAuth */; };
+		98EEC8C1281A61FB00C0616C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8C0281A61FB00C0616C /* FirebaseCrashlytics */; };
+		98EEC8C3281A61FB00C0616C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8C2281A61FB00C0616C /* FirebaseDatabase */; };
+		98EEC8C5281A61FB00C0616C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8C4281A61FB00C0616C /* FirebaseFirestore */; };
+		98EEC8C7281A61FB00C0616C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 98EEC8C6281A61FB00C0616C /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9810E8CF281F1D1600CEE1FA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9810E8D1281F200200CEE1FA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9810E8D5281F24F500CEE1FA /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		9810E8DA281F35C500CEE1FA /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		9810E8DC281F43FF00CEE1FA /* Locked-Door-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Locked-Door-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
 		98EEC88C281A126300C0616C /* Locked Door Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Locked Door Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EEC88F281A126300C0616C /* Locked_Door_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked_Door_TrackerApp.swift; sourceTree = "<group>"; };
 		98EEC891281A126300C0616C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		98EEC8A6281A126700C0616C /* Locked Door TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Locked Door TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EEC8AA281A126700C0616C /* Locked_Door_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked_Door_TrackerUITests.swift; sourceTree = "<group>"; };
 		98EEC8AC281A126700C0616C /* Locked_Door_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked_Door_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98EEC8B9281A612E00C0616C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EEC8C1281A61FB00C0616C /* FirebaseCrashlytics in Frameworks */,
+				98EEC8BD281A61FB00C0616C /* FirebaseAnalytics in Frameworks */,
+				98EEC8C3281A61FB00C0616C /* FirebaseDatabase in Frameworks */,
+				98EEC8C5281A61FB00C0616C /* FirebaseFirestore in Frameworks */,
+				98EEC8BF281A61FB00C0616C /* FirebaseAuth in Frameworks */,
+				98EEC8C7281A61FB00C0616C /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9810E8D7281F33E100CEE1FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9810E8D5281F24F500CEE1FA /* PostViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9810E8D8281F33E900CEE1FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9810E8D1281F200200CEE1FA /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9810E8D9281F33F100CEE1FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98EEC891281A126300C0616C /* ContentView.swift */,
+				9810E8CF281F1D1600CEE1FA /* DetailView.swift */,
+				9810E8DA281F35C500CEE1FA /* PostView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		98EEC883281A126300C0616C = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +143,13 @@
 		98EEC88E281A126300C0616C /* Locked Door Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9810E8DC281F43FF00CEE1FA /* Locked-Door-Tracker-Info.plist */,
+				9810E8D9281F33F100CEE1FA /* Views */,
+				9810E8D8281F33E900CEE1FA /* Models */,
+				9810E8D7281F33E100CEE1FA /* ViewModels */,
 				98EEC88F281A126300C0616C /* Locked_Door_TrackerApp.swift */,
-				98EEC891281A126300C0616C /* ContentView.swift */,
 				98EEC893281A126700C0616C /* Assets.xcassets */,
+				98EEC8B9281A612E00C0616C /* GoogleService-Info.plist */,
 				98EEC895281A126700C0616C /* Preview Content */,
 			);
 			path = "Locked Door Tracker";
@@ -143,6 +196,14 @@
 			dependencies = (
 			);
 			name = "Locked Door Tracker";
+			packageProductDependencies = (
+				98EEC8BC281A61FB00C0616C /* FirebaseAnalytics */,
+				98EEC8BE281A61FB00C0616C /* FirebaseAuth */,
+				98EEC8C0281A61FB00C0616C /* FirebaseCrashlytics */,
+				98EEC8C2281A61FB00C0616C /* FirebaseDatabase */,
+				98EEC8C4281A61FB00C0616C /* FirebaseFirestore */,
+				98EEC8C6281A61FB00C0616C /* FirebaseStorage */,
+			);
 			productName = "Locked Door Tracker";
 			productReference = 98EEC88C281A126300C0616C /* Locked Door Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 98EEC883281A126300C0616C;
+			packageReferences = (
+				98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 98EEC88D281A126300C0616C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +297,7 @@
 			files = (
 				98EEC897281A126700C0616C /* Preview Assets.xcassets in Resources */,
 				98EEC894281A126700C0616C /* Assets.xcassets in Resources */,
+				98EEC8BA281A612E00C0616C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EEC892281A126300C0616C /* ContentView.swift in Sources */,
+				9810E8D6281F24F500CEE1FA /* PostViewModel.swift in Sources */,
+				9810E8D0281F1D1600CEE1FA /* DetailView.swift in Sources */,
 				98EEC890281A126300C0616C /* Locked_Door_TrackerApp.swift in Sources */,
+				9810E8DB281F35C500CEE1FA /* PostView.swift in Sources */,
+				9810E8D2281F200200CEE1FA /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +491,7 @@
 				DEVELOPMENT_TEAM = 7B227ZD53A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Locked-Door-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +521,7 @@
 				DEVELOPMENT_TEAM = 7B227ZD53A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Locked-Door-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,6 +656,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98EEC8BC281A61FB00C0616C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		98EEC8BE281A61FB00C0616C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		98EEC8C0281A61FB00C0616C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		98EEC8C2281A61FB00C0616C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		98EEC8C4281A61FB00C0616C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		98EEC8C6281A61FB00C0616C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EEC8BB281A61FB00C0616C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98EEC884281A126300C0616C /* Project object */;
 }

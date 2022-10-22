@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
+    // Instantiate and observe a viewmodel object
+    @ObservedObject var model = PostViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PostView()
     }
 }
 

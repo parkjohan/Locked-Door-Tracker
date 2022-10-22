@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>72444309749-oogaehmrbe3qgvqjpqektgd7fqtqdqac.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.72444309749-oogaehmrbe3qgvqjpqektgd7fqtqdqac</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB7rWKpH9Omjr6SZA6Ti9kq6KR5i6rwegk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>72444309749</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.parkjohan.johanpark.Locked-Door-Tracker</string>
+	<key>PROJECT_ID</key>
+	<string>locked-door-tracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>locked-door-tracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:72444309749:ios:78f9870e7a790534d715bc</string>
+</dict>
+</plist>
